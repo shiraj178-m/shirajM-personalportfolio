@@ -39,17 +39,17 @@ nav{
     }
 
     .shake:hover{
-      transform: rotate(-20deg);
+      transform: rotate(-50deg);
     }
 
 nav .navbar-brand{
-  color: aliceblue;
+ color: bisque;
    font-size: 26px;
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-brand:hover{
-  color: bisque;
+ color: bisque;
 }
 
 
@@ -57,6 +57,7 @@ nav .navbar-brand{
 a.nav-link{
     color:aliceblue;
    border-radius: 10px; 
+   border: 1px solid rgb(117, 117, 239);
 }
 
 
@@ -64,7 +65,7 @@ a.nav-link{
 .navbar-nav a:hover{
     background-color: #729ff2;
     color: aliceblue;
-    transform: scale(1.0);
+    
 }
 
 
@@ -91,7 +92,6 @@ a.nav-link{
 
   .navbar-nav a:hover{
     width:auto;
-    padding: 12px;
     background-color: rgb(117, 117, 239);
 }
 
@@ -137,9 +137,9 @@ section {
  content: "";
       position: absolute;
       left: 0;
-      bottom: -1px; /* distance below text */
+      bottom: -1px; 
       width: 100%;
-      height: 3px; /* thickness of underline */
+      height: 3px; 
       background: linear-gradient(to right,rgb(60, 35, 35),white,blue);
       border-radius: 2px; 
 }
